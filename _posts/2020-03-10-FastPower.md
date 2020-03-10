@@ -33,7 +33,7 @@ int binarypow(int a, int b) {
   return ans;
 }
 ```
-​代码很短，也很好理解，以$b=11$为例，$11_{10} = 1011_{2}$，二进制从右向左算，但乘出来的顺序是$a^{2^{0}} \cdot a^{2^{1}} \cdot a^{2^{3}}$，是从左向右的.我们不断的让$base * =base$目的即是累乘，以便随时对$ans$做出贡献.
+​代码很短，也很好理解，以$b=11$为例，$11_{10}=1011_{2}$，二进制从右向左算，但乘出来的顺序是$a^{2^{0}} \cdot a^{2^{1}} \cdot a^{2^{3}}$，是从左向右的.我们不断的让$base * = base$目的即是累乘，以便随时对$ans$做出贡献.
 
 ​其中要理解$base * =base$这一步：因为 $base * base$  $\Longleftrightarrow$ $base^{2}$，下一步再乘，就是$ base^{2} * base^{2}$ $ \Longleftrightarrow $ $ base^{4}$，然后同理 $ base^{4} * base^{4} $ $ \Longleftrightarrow$ $ base^{8}$，由此可以做到$base$ $\longrightarrow$ $ base^{2} $ $ \longrightarrow$ $ base^{4} $ $ \longrightarrow$ $ base^{8} $ $ \longrightarrow$ $ base^{16}$ $ \longrightarrow $ $ base^{32} \cdots$指数正是$2^{i}$，再看上面的例子，$a^{1} * a^{2} * a^{8}$，这三项就可以完美解决了，快速幂就是这样.
 
