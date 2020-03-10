@@ -1,7 +1,7 @@
 ---
 layout: post
 title: iOS开发迎来机器学习的春天---TensorFlow 
-date: 2016-07-07 
+date: 2017-07-07 
 tags: 机器学习    
 ---
 
@@ -158,4 +158,4 @@ error: Xcode 7.3.0 or later is required.
 
 <br>
 
-转载请注明：[潘柏信的博客](http://baixin) » [点击阅读原文](http://baixin.io/2016/07/iOSMachineLearning_TensorFlow/)        
+       

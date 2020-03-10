@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 使用 TensorFlow 实现神经网络
-date: 2016-11-20 
+date: 2017-11-20 
 tags: 机器学习  
 ---
 
@@ -525,5 +525,4 @@ sample_submission.to_csv(os.path.join(sub_dir, 'sub01.csv'), index=False)
 
 
 <br>
-转载请注明：[潘柏信的博客](http://baixin) » [使用 TensorFlow 实现神经网络](http://baixin.io/2016/11/neural_networks_using_TensorFlow/)  
 
