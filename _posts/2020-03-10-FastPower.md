@@ -5,9 +5,7 @@ date: 2020-03-10
 description: "快速幂"
 tag: 算法 
 ---   
-​　　幂运算是非常常见的一种运算，求$a^{n}$最容易想到的方法便是通过循环逐个累乘，其复杂度为$O(n)$，这在很多时候是不够的，所以我们需要一种算法来优化幂运算的过程
-　　
-　　快速幂这个东西比较好理解，今天把它系统的总结一下防止忘记.
+​　　幂运算是非常常见的一种运算，求$a^{n}$最容易想到的方法便是通过循环逐个累乘，其复杂度为$O(n)$，这在很多时候是不够的，所以我们需要一种算法来优化幂运算的过程。快速幂这个东西比较好理解，今天把它系统的总结一下防止忘记.
 
 ## 正文：
 ​首先，快速幂的目的就是做到快速求幂，假设我们要求$a^{b}$,按照朴素算法就是把a连乘b次，这样一来时间复杂度是$O(b)$,即是$O(n)$级别，快速幂能做到$O(logn)$，快了好多好多.
@@ -35,9 +33,9 @@ int binarypow(int a, int b) {
   return ans;
 }
 ```
-​代码很短，也很好理解，以$b=11$为例，$11_{10}=1011_{2}$，二进制从右向左算，但乘出来的顺序是 $a^{2^{0}} * a^{2^{1}} * a^{2^{3}}$，是从左向右的.我们不断的让 $base * =base$ 目的即是累乘，以便随时对$ans$做出贡献.
+​代码很短，也很好理解，以$b=11$为例，$11_{10} = 1011_{2}$，二进制从右向左算，但乘出来的顺序是 $a^{2^{0}} * a^{2^{1}} * a^{2^{3}}$，是从左向右的.我们不断的让 $base * =base$ 目的即是累乘，以便随时对$ans$做出贡献.
 
-​其中要理解$base * =base$这一步：因为 $base * base$ $ $\Longleftrightarrow$ $base^{2}$，下一步再乘，就是$ base^{2} * base^{2}$ $ \Longleftrightarrow $ $ base^{4}$，然后同理 $ base^{4} * base^{4} $ $ \Longleftrightarrow$ $ base^{8}$，由此可以做到$base$ $\longrightarrow$ $ base^{2} $ $ \longrightarrow$ $ base^{4} $ $ \longrightarrow$ $ base^{8} $ $ \longrightarrow$ $ base^{16}$ $ \longrightarrow $ $ base^{32} \cdots$指数正是$2^{i}$，再看上面的例子，$a^{1} * a^{2} * a^{8}$，这三项就可以完美解决了，快速幂就是这样.
+​其中要理解$base * =base$这一步：因为 $base * base$  $\Longleftrightarrow$ $base^{2}$，下一步再乘，就是$ base^{2} * base^{2}$ $ \Longleftrightarrow $ $ base^{4}$，然后同理 $ base^{4} * base^{4} $ $ \Longleftrightarrow$ $ base^{8}$，由此可以做到$base$ $\longrightarrow$ $ base^{2} $ $ \longrightarrow$ $ base^{4} $ $ \longrightarrow$ $ base^{8} $ $ \longrightarrow$ $ base^{16}$ $ \longrightarrow $ $ base^{32} \cdots$指数正是$2^{i}$，再看上面的例子，$a^{1} * a^{2} * a^{8}$，这三项就可以完美解决了，快速幂就是这样.
 
 如果需要取模的话，直接在每一步运算中对base和ans取模即可.
 
