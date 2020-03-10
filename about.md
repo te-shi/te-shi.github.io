@@ -15,9 +15,9 @@ I am currently a undergraduate with School of Computer Science and Technology, A
 <p>
 
 <h3>Contact me </h3>  
-Email: te.shi@foxmail.com       
+<li>Email: te.shi@foxmail.com </li>    
 <p> 
-Github: te-shi     
+<li>Github: te-shi</li>      
 <p> 
 
 
