@@ -16,9 +16,9 @@ I am currently a undergraduate with School of Computer Science and Technology, A
 
 ### Computer Skills
 
-* Programming Language: C/C++ Python Java Matlab
+* Programming Languages: C/C++, Python, Java, Matlab
 
-* Library: Tensorflow Pytorch
+* Libraries: Tensorflow, Pytorch
 
 ### Contact me  
 
