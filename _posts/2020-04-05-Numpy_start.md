@@ -3,8 +3,7 @@ layout: post
 title: "Numpy 基础知识"
 date: 2020-04-05 
 description: "Numpy 基础知识"
-tag:  python
-tag:  numpy
+tag:  "python" "numpy"
 ---
 
 NumPy的主要对象是同构多维数组。它是一个元素表（通常是数字），所有类型都相同，由非负整数元组索引。在NumPy维度中称为轴* 。
