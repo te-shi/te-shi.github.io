@@ -163,7 +163,7 @@ import numpy as np
 
 #### **1. numpy.random.rand()**
 
-numpy.random.rand(d0,d1,…,dn)
+`numpy.random.rand(d0,d1,…,dn)`
 
 - rand函数根据给定维度生成[0,1)之间的数据，包含0，不包含1
 - dn表格每个维度
@@ -195,7 +195,7 @@ array([[[ 0.08256277,  0.11408276],
 
 #### **2. numpy.random.randn()**
 
-numpy.random.randn(d0,d1,…,dn)
+`numpy.random.randn(d0,d1,…,dn)`
 
 - randn函数返回一个或一组样本，具有标准正态分布。
 - dn表格每个维度
@@ -232,9 +232,9 @@ array([[[ 1.27820764,  0.92479163],
 
 #### **3. numpy.random.randint()**
 
-##### 3.1 numpy.random.randint()
+##### 	3.1 numpy.random.randint()
 
-numpy.random.randint(low, high=None, size=None, dtype=’l’)
+`numpy.random.randint(low, high=None, size=None, dtype=’l’)`
 
 - 返回随机整数，范围区间为[low,high），包含low，不包含high
 - 参数：low为最小值，high为最大值，size为数组维度大小，dtype为数据类型，默认的数据类型是np.int
@@ -250,9 +250,9 @@ array([[ 2, -1],
        [ 2,  0]])
 ```
 
-##### 3.2 numpy.random.random_integers
+##### 	3.2 numpy.random.random_integers
 
-numpy.random.random_integers(low, high=None, size=None)
+`numpy.random.random_integers(low, high=None, size=None)`
 
 - 返回随机整数，范围区间为[low,high]，包含low和high
 - 参数：low为最小值，high为最大值，size为数组维度大小
@@ -297,7 +297,7 @@ print(np.random.sample(size=(2,2)))
 
 #### **5. numpy.random.choice()**
 
-numpy.random.choice(a, size=None, replace=True, p=None)
+`numpy.random.choice(a, size=None, replace=True, p=None)`
 
 - 从给定的一维数组中生成随机数
 - 参数： a为一维数组类似数据或整数；size为数组维度；p为数组中的数据出现的概率
