@@ -6,7 +6,7 @@ description: "Numpy 基础知识"
 tag: numpy
 ---
 
-NumPy的主要对象是同构多维数组。它是一个元素表（通常是数字），所有类型都相同，由非负整数元组索引。在NumPy维度中称为轴* 。
+NumPy的主要对象是同构多维数组。它是一个元素表（通常是数字），所有类型都相同，由非负整数元组索引。在NumPy维度中称为轴。
 
 例如，3D空间中的点的坐标`[1, 2, 1]`具有一个轴。该轴有3个元素，所以我们说它的长度为3.在下面所示的例子中，数组有2个轴。第一轴的长度为2，第二轴的长度为3。
 
@@ -153,7 +153,7 @@ array([ 0.  ,  0.25,  0.5 ,  0.75,  1.  ,  1.25,  1.5 ,  1.75,  2.  ])
   [20 21 22 23]]]
 ```
 
-###random模块
+### random模块
 
 在python数据分析的学习和应用过程中，经常需要用到numpy的随机函数，由于随机函数random的功能比较多，经常会混淆或记不住，下面我们一起来汇总学习下。
 
@@ -161,7 +161,7 @@ array([ 0.  ,  0.25,  0.5 ,  0.75,  1.  ,  1.25,  1.5 ,  1.75,  2.  ])
 import numpy as np
 ```
 
-#### 1 numpy.random.rand()
+#### **1. numpy.random.rand()**
 
 numpy.random.rand(d0,d1,…,dn)
 
@@ -193,7 +193,7 @@ array([[[ 0.08256277,  0.11408276],
         [ 0.18205926,  0.99637823]]])
 ```
 
-#### 2 numpy.random.randn()
+#### **2. numpy.random.randn()**
 
 numpy.random.randn(d0,d1,…,dn)
 
@@ -230,7 +230,7 @@ array([[[ 1.27820764,  0.92479163],
 - 标准正态分布—-standard normal distribution
 - 标准正态分布又称为u分布，是以0为均值、以1为标准差的正态分布，记为N（0，1）。
 
-#### 3 numpy.random.randint()
+#### **3. numpy.random.randint()**
 
 ##### 3.1 numpy.random.randint()
 
@@ -265,7 +265,7 @@ np.random.random_integers(1,size=5)
 array([1, 1, 1, 1, 1])
 ```
 
-#### 4 生成[0,1)之间的浮点数
+#### **4. 生成[0,1)之间的浮点数**
 
 - numpy.random.random_sample(size=None)
 - numpy.random.random(size=None)
@@ -295,7 +295,7 @@ print(np.random.sample(size=(2,2)))
  [ 0.36233939  0.12607092]]
 ```
 
-#### 5 numpy.random.choice()
+#### **5. numpy.random.choice()**
 
 numpy.random.choice(a, size=None, replace=True, p=None)
 
@@ -333,7 +333,7 @@ array([['sansumg', 'sansumg', 'sansumg'],
       dtype='<U7')
 ```
 
-#### 6 numpy.random.seed()
+#### **6. numpy.random.seed()**
 
 - np.random.seed()的作用：使得随机数据可预测。
 - 当我们设置相同的seed，每次生成的随机数相同。如果不设置seed，则每次会生成不同的随机数
