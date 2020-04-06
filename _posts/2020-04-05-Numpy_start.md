@@ -232,7 +232,7 @@ array([[[ 1.27820764,  0.92479163],
 
 #### **3. numpy.random.randint()**
 
-##### 		3.1 numpy.random.randint()
+**3.1 numpy.random.randint()**
 
 `numpy.random.randint(low, high=None, size=None, dtype=’l’)`
 
@@ -250,7 +250,7 @@ array([[ 2, -1],
        [ 2,  0]])
 ```
 
-##### 			3.2 numpy.random.random_integers
+**3.2 numpy.random.random_integers**
 
 `numpy.random.random_integers(low, high=None, size=None)`
 
