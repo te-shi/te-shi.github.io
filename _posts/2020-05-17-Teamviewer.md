@@ -16,7 +16,7 @@ Teamviewer在当作个人用户使用时是完全免费的，但如果连接频�
 
 **1 将Teamviewer完全卸载**
 
-a. 首先要做的就是卸载原来安装的Teamviewer，方法是打开控制面板，添加/卸载程序，找到Teamviewer，卸载。
+a. 首先要做的就是卸载原来安装的Teamviewer，找到Teamviewer，卸载。
 
 ![](/images/posts/tm/tm1.png)
 
@@ -36,13 +36,14 @@ c. 按Win + R 键，调出运行窗口，输入regedit，打开电脑的注册�
 
 链接：https://pan.baidu.com/s/1PC8qpkK6rxuPOf5H-pipzQ 
 提取码：xfb6 
+
 下载该软件，修改网卡的MAC地址，软件界面如下所示。如果是win10系统，选择win8那项即可。然后选择对应的网卡，重置MAC地址就OK
 
 ![](/images/posts/tm/tm3.png)
 
 **3 重新安装Teamviewer**
 
-这是会发现teamviewer id变了，可以继续进行免费的个人使用了
+这时会发现teamviewer id变了，可以继续进行免费的个人使用了
 
 ![](/images/posts/tm/tm.png)
 
