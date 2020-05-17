@@ -39,7 +39,7 @@ c. 按Win + R 键，调出运行窗口，输入regedit，打开电脑的注册�
 
 下载该软件，修改网卡的MAC地址，软件界面如下所示。如果是win10系统，选择win8那项即可。然后选择对应的网卡，重置MAC地址就OK
 
-![](/images/posts/tm/tm4.png)
+![](/images/posts/tm/tmv4.png)
 
 **3 重新安装Teamviewer**
 
