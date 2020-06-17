@@ -9,9 +9,9 @@ I will start my master degree in School of Remote Sensing and Information Engine
 
 ### Education
 
-* 2020.09~ M.E. major in Pattern Recognition and Intelligent System, Wuhan University.
+* 2020.09~ M.S. major in Pattern Recognition and Intelligent System, Wuhan University.
 
-* 2016.09~2020.06 B.E. major in Software Engineering, Anhui University.	
+* 2016.09~2020.06 B.S. major in Software Engineering, Anhui University.	
 
 
 ### Computer Skills
