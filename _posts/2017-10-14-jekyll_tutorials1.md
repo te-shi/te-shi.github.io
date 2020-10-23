@@ -5,10 +5,6 @@ date: 2017-10-14
 tags: 博客   
 ---
 
-　之前写了一篇[HEXO搭建个人博客](http://baixin.io/2015/08/HEXO%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/)的教程获得了很好评，尤其是在[简书](http://www.jianshu.com/p/465830080ea9)上目前已经累积了10W+的阅读量了，也有好心的读者主动给我打赏，在此感谢。
-
-　如果你看过我的文章会发现我现在的博客样式跟之前是有很大的区别的，之前我也是使用 HEXO 搭建的博客，后来发现使用 HEXO 在多台电脑上发布博客，操作起来并不是那么方便，果断就转到了 Jekyll 上，接下来我会讲如何使用 Jekyll 搭建博客，[博客模板效果](http://baixin.io/#blog)。
-
 
 ### 介绍
 
@@ -26,13 +22,13 @@ tags: 博客
 
 ```     
 $ gem install jekyll     
-```    
+```
 
 创建博客
 
 ```    
 $ jekyll new myBlog    
-```   
+```
 
 进入博客目录
 
@@ -53,7 +49,7 @@ $ jekyll serve
 so easy !
 
 ### 目录结构
-　
+
 　Jekyll 的核心其实是一个文本转换引擎。它的概念其实就是： 你用你最喜欢的标记语言来写文章，可以是 Markdown，也可以是 Textile,或者就是简单的 HTML, 然后 Jekyll 就会帮你套入一个或一系列的布局中。在整个过程中你可以设置URL路径, 你的文本在布局中的显示样式等等。这些都可以通过纯文本编辑来实现，最终生成的静态页面就是你的成品了。
 
  一个基本的 Jekyll 网站的目录结构一般是像这样的：
@@ -126,7 +122,7 @@ categories: tag标签的分类，如：categories: 随笔
 
 虽然博客部署完成了，你会发现博客太简单不是你想要的，如果你喜欢我的模板的话，可以使用我的模板。
 
-首先你要获取的我博客，[Github项目地址](https://github.com/leopardpan/leopardpan.github.io.git)，你可以直接[点击下载博客](https://github.com/leopardpan/leopardpan.github.io/archive/master.zip)，进去leopardpan.github.io/ 目录下， 使用命令部署本地服务 
+首先你要获取的这个博客，[Github项目地址](https://github.com/leopardpan/leopardpan.github.io.git)，你可以直接[点击下载博客](https://github.com/leopardpan/leopardpan.github.io/archive/master.zip)，进去leopardpan.github.io/ 目录下， 使用命令部署本地服务 
 
 ```
 $ jekyll server   
@@ -261,7 +257,7 @@ Configuration file: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/leopardpa
 
 ### 修改成你自己的博客
 
->* 如果你想使用我的模板请把 _posts/ 目录下的文章都去掉。
+>* 如果你想使用该模板请把 _posts/ 目录下的文章都去掉。
 >* 修改 _config.yml 文件里面的内容为你自己的。
 
 然后使用 git push 到你自己的仓库里面去，检查你远端仓库，在浏览器输入 username.github.io 就会发现，你有一个漂亮的主题模板了。      
