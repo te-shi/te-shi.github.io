@@ -3,6 +3,5 @@ layout: page
 title: Friends 
 ---
 ### Friends list
- ![](/images/friends/yuchenhan.png =100x100)
-[Yuchen han](https://hannlp.github.io/)
+ - [Yuchen han](https://hannlp.github.io/) （东北大学 NLPer）
 
