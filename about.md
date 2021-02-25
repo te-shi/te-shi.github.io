@@ -74,12 +74,11 @@ I am currently pursuing my master degree in School of Remote Sensing and Informa
         background-color: #ffffd0;
     }
 </style>
-
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
    <tbody>
     <!-- ------------ Paper Start  ----------------- -->
     <tr>
-      <td width="20%">
+      <td width="10%">
          <img src="./images/paper1.jpg">
       </td>
       <td valign="top" width="70%">
@@ -87,7 +86,7 @@ I am currently pursuing my master degree in School of Remote Sensing and Informa
           <papertitle>Learning deep semantic segmentation network under multiple weakly-supervised contraints for cross-domain remote sensing image semantic segmentation</papertitle> 
         </a>
     <br>
-         Hong Ji,
+         Yansheng Li,
         <strong>Te Shi</strong>, 
         et al.
     <br>
@@ -99,6 +98,7 @@ I am currently pursuing my master degree in School of Remote Sensing and Informa
     </tr>    
     <!-- ------------ Paper End ----------------- -->    
 </tbody></table>
+
 
 ### Contact me  
 
