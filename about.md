@@ -1,4 +1,5 @@
 ---
+
 layout: page
 title: Curriculum Vitae 
 ---
@@ -74,11 +75,13 @@ I am currently pursuing my master degree in School of Remote Sensing and Informa
         background-color: #ffffd0;
     }
 </style>
+
+
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
    <tbody>
     <!-- ------------ Paper Start  ----------------- -->
     <tr>
-      <td width="15%">
+      <td width="10%">
          <img src="/images/paper1.jpg">
       </td>
       <td valign="top" width="70%">
@@ -98,6 +101,7 @@ I am currently pursuing my master degree in School of Remote Sensing and Informa
     </tr>    
     <!-- ------------ Paper End ----------------- -->    
 </tbody></table>
+
 
 
 
