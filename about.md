@@ -84,7 +84,28 @@ I am currently pursuing my master degree in School of Remote Sensing and Informa
       <td width="20%">
          <img src="/images/paper1.jpg">
       </td>
-      <td valign="top" width="40%">
+      <td valign="top" width="100%">
+        <a> 
+          <papertitle>Learning deep semantic segmentation network under multiple weakly-supervised contraints for cross-domain remote sensing image semantic segmentation</papertitle> 
+        </a>
+    <br>
+         Yansheng Li,
+        <strong>Te Shi</strong>, Yongjun Zhang,
+        et al.
+    <br>
+        <em> ISPRS Journal of Photogrammetry and Remote Sensing, 2021(待出版) (中科院一区Top)</em> <br>
+        <a href=" ">Link</a>
+        <p></p>
+        <p></p>
+      </td>
+    </tr>    
+    <!-- ------------ Paper End ----------------- -->    
+    <!-- ------------ Paper Start  ----------------- -->
+    <tr>
+      <td width="20%">
+         <img src="/images/paper1.jpg">
+      </td>
+      <td valign="top" width="100%">
         <a> 
           <papertitle>Learning deep semantic segmentation network under multiple weakly-supervised contraints for cross-domain remote sensing image semantic segmentation</papertitle> 
         </a>
