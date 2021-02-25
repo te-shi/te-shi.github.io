@@ -78,8 +78,8 @@ I am currently pursuing my master degree in School of Remote Sensing and Informa
    <tbody>
     <!-- ------------ Paper Start  ----------------- -->
     <tr>
-      <td width="10%">
-         <img src="./images/paper1.jpg">
+      <td width="15%">
+         <img src="/images/paper1.jpg">
       </td>
       <td valign="top" width="70%">
         <a> 
@@ -98,6 +98,7 @@ I am currently pursuing my master degree in School of Remote Sensing and Informa
     </tr>    
     <!-- ------------ Paper End ----------------- -->    
 </tbody></table>
+
 
 
 ### Contact me  
