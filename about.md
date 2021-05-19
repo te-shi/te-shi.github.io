@@ -22,18 +22,19 @@ I am currently pursuing my master degree in School of Remote Sensing and Informa
 
 ### Publications
 
-- Learning deep semantic segmentation network under multiple weakly-supervised constraints for cross-domain remote sensing image semantic segmentation
+**[1]** Learning deep semantic segmentation network under multiple weakly-supervised constraints for cross-domain remote sensing image semantic segmentation
 
-  Yansheng Li, **Te Shi**, Yongjun Zhang, et al.
+Yansheng Li, **Te Shi**, Yongjun Zhang, et al.
 
-  *ISPRS Journal of Photogrammetry and Remote Sensing, 2021 (待出版) (中科院一区Top)*
+*ISPRS Journal of Photogrammetry and Remote Sensing, 2021 Volume 175, May 2021, Pages 20-33*	(SCI Q1 Top)
+
+[[Link]](./fiels/ISPRS JPRS 2021.pdf) [[BibTex]](./fiels/citation1.html)
 
 ### Contact me  
 
 * Email: te.shi@foxmail.com   
 
 * Github: te-shi    
-
 
 
 
