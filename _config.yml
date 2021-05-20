@@ -66,6 +66,7 @@ nav:
     - {title: 标签, description: tags, url: '/tags'}
     - {title: 关于我, description: about, url: '/about'}
     - {title: 友链, description: friend, url: '/friend'}
+    - {title: test, description: friend, url: '/test.html'}
 
 
 
