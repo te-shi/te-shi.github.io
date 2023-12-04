@@ -28,7 +28,7 @@ Yansheng Li, **Te Shi**, Yongjun Zhang, et al.
 
 *ISPRS Journal of Photogrammetry and Remote Sensing, 2021 Volume 175, May 2021, Pages 20-33*	(SCI Q1 Top) (ESI Highly Cited Paper)
 
-[[Link]](./fiels/ISPRS JPRS 2021.pdf) [[BibTex]](./fiels/citation1.html)
+[[Link]](./fiels/ISPRS JPRS 2021.pdf) [[BibTex]](./fiels/SPGAN-DA.html)
 
 **[2]** SPGAN-DA: Semantic-Preserved Generative Adversarial Network for Domain Adaptive Remote Sensing Image Semantic Segmentation
 
