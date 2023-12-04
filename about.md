@@ -28,23 +28,23 @@ Yansheng Li, **Te Shi**, Yongjun Zhang, et al.
 
 *ISPRS Journal of Photogrammetry and Remote Sensing, 2021 Volume 175, May 2021, Pages 20-33*	(SCI Q1 Top) (ESI Highly Cited Paper)
 
-[[Link]](./fiels/ISPRS_JPRS_2021.pdf) [[BibTex]](./fiels/SPGAN-DA.html)
+[[PDF]](./fiels/ISPRS_JPRS_2021.pdf) [[BibTex]](./fiels/SPGAN-DA.html)
 
 **[2]** SPGAN-DA: Semantic-Preserved Generative Adversarial Network for Domain Adaptive Remote Sensing Image Semantic Segmentation
 
 Yansheng Li, **Te Shi** (Corresponding author), Yongjun Zhang, Jiayi Ma.
 
-*IEEE Transactions on Geoscience and Remote Sensing, Volume: 61	(SCI Q1 Top)
+IEEE Transactions on Geoscience and Remote Sensing, Volume: 61	(SCI Q1 Top)
 
-[[Link]](./fiels/SPGAN-DA-TGRS.pdf) [[BibTex]](./fiels/SPGAN-DA.html)
+[[PDF]](./fiels/SPGAN-DA-TGRS.pdf) [[BibTex]](./fiels/SPGAN-DA.html)
 
 **[3]** Yansheng Li, **Te Shi**, et al. Unsupervised Style Transfer via Dualgan for Cross-Domain Aerial Image Classification. IGARSS, 2020
 
-[[Link]](./fiels/IGARSS2020.pdf) [[BibTex]](./fiels/IGARSS2020.html)
+[[PDF]](./fiels/IGARSS2020.pdf) [[BibTex]](./fiels/IGARSS2020.html)
 
 **[4]** **Te Shi**, Yansheng Li, et al. Rotation Consistency-Preserved Generative Adversarial Networks for Cross-Domain Aerial Image Semantic Segmentation. IGARSS, 2021
 
-[[Link]](./fiels/IGARSS2021.pdf) [[BibTex]](./fiels/IGARSS2021.html)
+[[PDF]](./fiels/IGARSS2021.pdf) [[BibTex]](./fiels/IGARSS2021.html)
 
 ### Contact me  
 
