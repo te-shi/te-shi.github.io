@@ -36,7 +36,7 @@ Yansheng Li, **Te Shi** (Corresponding author), Yongjun Zhang, Jiayi Ma.
 
 *IEEE Transactions on Geoscience and Remote Sensing, Volume: 61	(SCI Q1 Top)
 
-[[Link]](./fiels/ISPRS JPRS 2021.pdf) [[BibTex]](./fiels/SPGAN-DA.html
+[[Link]](./fiels/SPGAN-DA-TGRS.pdf) [[BibTex]](./fiels/SPGAN-DA.html)
 
 **[3]** Yansheng Li, **Te Shi**, et al. Unsupervised Style Transfer via Dualgan for Cross-Domain Aerial Image Classification. IGARSS, 2020
 
