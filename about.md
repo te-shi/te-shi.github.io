@@ -16,7 +16,7 @@ I have received my master degree in School of Remote Sensing and Information Eng
 
 ### Computer skills
 
-* Programming Languages: C/C++, Python, Java, Matlab
+* Programming Languages: Python, C/C++,  Matlab
 
 * Libraries: Pytorch, Tensorflow
 
