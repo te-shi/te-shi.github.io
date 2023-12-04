@@ -24,7 +24,7 @@ I have received my master degree in School of Remote Sensing and Information Eng
 
 **[1]** Learning deep semantic segmentation network under multiple weakly-supervised constraints for cross-domain remote sensing image semantic segmentation
 
-Yansheng Li, **Te Shi**, Yongjun Zhang, et al.
+Yansheng Li, ***Te Shi***, Yongjun Zhang, et al.
 
 *ISPRS Journal of Photogrammetry and Remote Sensing, 2021 Volume 175, May 2021, Pages 20-33*	(SCI Q1 Top) (ESI Highly Cited Paper)
 
@@ -32,17 +32,25 @@ Yansheng Li, **Te Shi**, Yongjun Zhang, et al.
 
 **[2]** SPGAN-DA: Semantic-Preserved Generative Adversarial Network for Domain Adaptive Remote Sensing Image Semantic Segmentation
 
-Yansheng Li, **Te Shi** (Corresponding author), Yongjun Zhang, Jiayi Ma.
+Yansheng Li, ***Te Shi*** (Corresponding author), Yongjun Zhang, Jiayi Ma.
 
-IEEE Transactions on Geoscience and Remote Sensing, Volume: 61	(SCI Q1 Top)
+*IEEE Transactions on Geoscience and Remote Sensing, Volume: 61*	(SCI Q1 Top)
 
 [[PDF]](./fiels/SPGAN-DA-TGRS.pdf) [[BibTex]](./fiels/SPGAN-DA.html)
 
-**[3]** Yansheng Li, **Te Shi**, et al. Unsupervised Style Transfer via Dualgan for Cross-Domain Aerial Image Classification. IGARSS, 2020
+**[3]**  Unsupervised Style Transfer via Dualgan for Cross-Domain Aerial Image Classification. 
+
+Yansheng Li, ***Te Shi***, et al.
+
+*IGARSS, 2020*
 
 [[PDF]](./fiels/IGARSS2020.pdf) [[BibTex]](./fiels/IGARSS2020.html)
 
-**[4]** **Te Shi**, Yansheng Li, et al. Rotation Consistency-Preserved Generative Adversarial Networks for Cross-Domain Aerial Image Semantic Segmentation. IGARSS, 2021
+**[4]**  Rotation Consistency-Preserved Generative Adversarial Networks for Cross-Domain Aerial Image Semantic Segmentation. 
+
+***Te Shi***, Yansheng Li, et al.
+
+*IGARSS, 2021*
 
 [[PDF]](./fiels/IGARSS2021.pdf) [[BibTex]](./fiels/IGARSS2021.html)
 
