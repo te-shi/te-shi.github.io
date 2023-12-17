@@ -1,6 +1,10 @@
-***
-
-## layout: post title: "SSH免密登陆服务器" date: 2023-12-16 description: "Linux" tag: Linux
+---
+layout: post
+title: "SSH免密登陆服务器"
+date: 2023-12-16
+description: "Linux_ssh"
+tag: Linux
+---
 
 每次连接都需要输入密码未免有些麻烦，一台机器想要免密访问其他机器，需要把自己的公钥内容发送到别的机器的authorized\_keys中去，并在本机config文件中配置私钥文件位置。具体操作分为如下三个步骤。
 
