@@ -10,9 +10,9 @@ tag: cp
 
 #### （一）一个例子
 
-![](images/posts/cmake0/1.png)
+![](/images/posts/cmake0/1.png)
 
-main.cpp
+**`main.cpp`**
 
 主函数，分别调用printhello()和factorial()函数。
 
@@ -30,7 +30,7 @@ int main()
 }
 ```
 
-printhello.cpp
+**`printhello.cpp`**
 
 用途：打印字符串"Hello World!"
 
@@ -47,7 +47,7 @@ void printhello()
 }
 ```
 
-factorial.cpp
+**`factorial.cpp`**
 
 用途：求一个正整数n的阶乘
 
@@ -60,6 +60,16 @@ int factorial(int n)
     else
         return n * factorial(n -1);
 }
+```
+
+**`functions.h`**
+
+```c++
+#ifndef _FUNCTIONS_H_
+#define _FUNCTIONS_H_
+void printhello();
+int factorial(int n);
+#endif
 ```
 
 有两个函数分别定义在不同的CPP文件（printhello.cpp和factorial.cpp）中，在main.cpp中进行调用，所有的函数定义放在头文件（functions.h）中。在main.cpp中通过#include "functions.h"实现对两个函数的调用。
@@ -76,11 +86,11 @@ int factorial(int n)
 
 - 结果如下：
 
-![](images/posts/cmake0/2.png)
+![](/images/posts/cmake0/2.png)
 
 本案例运行成功。本案例中仅有三个源文件，在实际项目中可能有很多个源文件，如果仍按照这种方式编译，则需要花费很长时间。于是就引出了Makefile
 
-（二）Makefile
+#### （二）Makefile
 
 **`Version 1`**
 
@@ -94,7 +104,7 @@ hello: main.cpp printhello.cpp factorial.cpp
 	g++ -o hello main.cpp printhello.cpp factorial.cpp
 ```
 
-![](images/posts/cmake0/3.png)
+![](/images/posts/cmake0/3.png)
 
 缺点：如果源文件非常多，那么每次的编译时间会很长。
 
@@ -120,7 +130,7 @@ factorial.o: factorial.cpp
 
 ```
 
-![](images/posts/cmake0/4.png)
+![](/images/posts/cmake0/4.png)
 
 该中方式将只会对发生修改的CPP文件进行重新编译，随后对*.o文件进行链接，生成最终的可执行文件。
 
@@ -146,9 +156,9 @@ clean: # 使用make clean命令，就会清除当前目录下所有的.o文件�
 	rm -f *.o $(TARGET)
 ```
 
-![](images/posts/cmake0/5-1.png)
+![](/images/posts/cmake0/5-1.png)
 
-![](images/posts/cmake0/5-2.png)
+![](/images/posts/cmake0/5-2.png)
 
 **`Version 4`**
 
@@ -184,3 +194,40 @@ clean:
 
 ### 二、Cmake
 
+前面讲的Makefile可以高效管理源文件进行编译，但其仍旧存在一个问题。Makefile的配置是与操作系统强相关的，比如在Linux或MacOS下配置的Makefile的文件放到Windows下就会有各种问题，这是路径、编译器等不同造成的。那么如果要开发跨平台的软件，是否要给不同的环境写不同的Makefile？这个事情就会非常繁琐，令人头大。于是，CMake应运而生！！！
+
+![](/images/posts/cmake0/6.png)
+
+**`CMakeLists.txt`**
+
+CMake的最基本语法如下所示
+
+```cmake
+# 最低的cmake版本
+cmake_minimum_required(VERSION 3.10)
+
+project(hello) 
+
+# 生成可执行文件hello，其依赖于后面的几个cpp文件
+add_executable(hello main.cpp factorial.cpp printhello.cpp)
+```
+
+- `cmake .`
+
+上述命令会在当前目录寻找CMakeLists.txt，读取其配置并执行，结果如下图所示。
+
+![](/images/posts/cmake0/6-1.png)
+
+可以看到生成了很多文件，最瞩目的是**`Makefile`**。这就是我们使用CMake的目的，让CMake帮我们生成当前操作系统环境下的Makefile。
+
+- make
+
+随后，使用make命令，使用Makefile文件，进行编译。
+
+![](/images/posts/cmake0/6-2.png)
+
+
+
+PS：上述方式会导致目录下文件比较乱，我们可以采用如下图的方式进行。
+
+![](/images/posts/cmake0/6-3.png)
