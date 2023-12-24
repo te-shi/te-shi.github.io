@@ -3,7 +3,7 @@ layout: post
 title: "makefile and cmake入门"
 date: 2023-12-23
 description: "makefile and cmake入门"
-tag: cp
+tag: cmake
 ---
 
 ### 一、 Makefile
