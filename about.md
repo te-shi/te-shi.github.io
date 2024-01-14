@@ -57,8 +57,8 @@ Yansheng Li, ***Te Shi***, et al.
 ### Contact me  
 
 * Email: te.shi@foxmail.com   
-
 * Github: te-shi    
+* Google Scholar: [[Te Shi]](https://scholar.google.com/citations?user=NWUUWioAAAAJ&hl=en)
 
 
 
