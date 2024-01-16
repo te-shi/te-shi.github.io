@@ -21,9 +21,9 @@ tag: git
 ## -f 表示自定义生成秘钥的名称
 #--------------------------------------
 # 生成 github.com 公私钥对
-ssh-keygen -t rsa -C "te.shi@whu.edu.cn" -f github
+ssh-keygen -t rsa -C "xxxx@xxx.edu.cn" -f github
 # 生成 gitlab.com 公私钥对
-ssh-keygen -t rsa -C "shite@xingshentech.com" -f gitlab
+ssh-keygen -t rsa -C "xxxx@xxtech.com" -f gitlab
 ```
 
 **生成的文件就在当前运行命令的文件夹内**
