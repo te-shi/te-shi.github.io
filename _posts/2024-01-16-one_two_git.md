@@ -28,7 +28,7 @@ ssh-keygen -t rsa -C "shite@xingshentech.com" -f gitlab
 
 **生成的文件就在当前运行命令的文件夹内**
 
-![](images/posts/git2/1.png)
+![](/images/posts/git2/1.png)
 
 ### **二、登录云端仓库配置公钥**
 
@@ -40,13 +40,13 @@ ssh-keygen -t rsa -C "shite@xingshentech.com" -f gitlab
 
 **输入标题，将生成的github的公钥(github.pub)文件内的内容拷贝至 Key，点击Add SSH key**
 
-![](images/posts/git2/2.png)
+![](/images/posts/git2/2.png)
 
 ### 三、创建config文件
 
 在刚刚生成公私钥对的文件夹内，创建config文件内容如下
 
-![](images/posts/git2/3.png)
+![](/images/posts/git2/3.png)
 
 配置解析
 
