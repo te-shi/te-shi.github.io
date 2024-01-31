@@ -7,7 +7,7 @@ avatarTitle: Te-Shi
 # 头像里面的描述
 avatarDesc: 机器学习/计算机视觉
 url: "http://te-shi.com"
-
+markdown: kramdown
 # Comment
 comment:
     #disqus: leopard
