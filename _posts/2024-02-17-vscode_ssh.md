@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "VScode ssh XHR failed无法访问远程服务器"
-date: 2024-01-16
+date: 2024-02-17
 description: "vscode ssh failed"
 tag: vscode
 ---
