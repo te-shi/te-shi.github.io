@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "VScode Remote-SSH XHR failed无法访问远程服务器"
+title: "VScode ssh XHR failed无法访问远程服务器"
 date: 2024-01-16
-description: "vs_code_ssh"
-tag: git
+description: "vscode ssh failed"
+tag: vscode
 ---
 
 ****
